@@ -16,7 +16,7 @@ if (story = 1) {
 			new String[] { "Accuses him of stealing the phone", "Takes the phone and thanks Bob", "Tells Bob the phone belongs to himself" }, null);
 }
 if (story = 0) {
-	int story3 = JOptionPane.showOptionDialog(null, "Bob answers the phone and..., "Story", 0, JOptionPane.INFORMATION_MESSAGE, null,
+	int story3 = JOptionPane.showOptionDialog(null, "Bob answers the phone and...", "Story", 0, JOptionPane.INFORMATION_MESSAGE, null,
 			new String[] { "There is no one on the other end", "He recognizes the voice on the other end", "He hears a scary voice on the other end" }, null);	
 }
 }}
